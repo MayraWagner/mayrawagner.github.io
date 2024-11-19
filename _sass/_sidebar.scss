@@ -13,7 +13,6 @@
   @include clearfix();
   position: fixed; /* Fix sidebar position */
   top: 250px; /* Move sidebar down */
-  left: 30px; /* Move sidebar left */
   height: calc(100vh - 250px); /* Adjust height based on new top position */
   width: 300px; /* Sidebar width */
   overflow-y: auto; /* Add scrollbar if the sidebar content is too long */
