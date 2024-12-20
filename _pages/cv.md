@@ -11,54 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Sc. Environmental Economics and Climate Change, London School of Economics and Political Science, 2022-2023
+* B.Sc. Economics, University of Mannheim, 2018-2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Pre-Doctoral Researcher, 2023 - present
+  * Barcelona School of Economics
+  * Supervisor: Prof. Mar Reguant
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
+* Research Assistant, 2023 - present
+  * STICERD, LSE
   * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * German (native)
+  * English (C1)
+  * Spanish (B1)
+* Programming Languages and Softwares
+  * Python (proficient)
+  * R (proficient)
+  * QGIS (proficient)
+  * STATA (basic)
+  * Julia (basic)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
