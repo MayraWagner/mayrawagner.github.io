@@ -9,8 +9,10 @@ redirect_from:
 
 
 
-Hi there!
+Moin!
 
-My name is Mayra Wagner, and I am currently a pre-doctoral researcher for Prof. Mar Reguant at the Barcelona School of Economics and a research assistant at STICERD for Amen Jalal and Veronica Salazar Restrepo.
+My name is Mayra Wagner, and I am currently a PhD student at the Universitat Pompeu Fabra (UPF).
 
-I am interested in energy economics, the economics of deforestation, and spatial economics. I am currently applying for a PhD Economics program starting in 2025.
+I am mostly interested in energy economics, the economics of deforestation, and spatial economics.
+
+This website is still in its early stages, just like I am in my academic journey!
