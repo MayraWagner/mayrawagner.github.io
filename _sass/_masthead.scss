@@ -19,11 +19,13 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    max-width: none;
+    width: 100%;
+    padding: 1em $site-horizontal-padding;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: none;
     }
 
     nav {
@@ -37,6 +39,10 @@
 }
 
 .masthead__menu {
+
+  @include breakpoint($large) {
+    margin-left: $sidebar-link-max-width + $profile-content-gap;
+  }
 
   ul {
     margin: 0;
