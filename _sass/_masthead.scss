@@ -17,12 +17,23 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
     @include clearfix;
+    margin-left: 0;
+    margin-right: 0;
     max-width: none;
     width: 100%;
     padding: 1em $site-horizontal-padding;
     font-family: $sans-serif-narrow;
+
+    @include breakpoint($large) {
+      display: grid;
+      grid-template-columns: $sidebar-link-max-width minmax(0, 1fr);
+      column-gap: $profile-content-gap;
+
+      &:before, &:after {
+        display: none;
+      }
+    }
 
     @include breakpoint($x-large) {
       max-width: none;
@@ -41,7 +52,9 @@
 .masthead__menu {
 
   @include breakpoint($large) {
-    margin-left: $sidebar-link-max-width + $profile-content-gap;
+    grid-column: 2;
+    min-width: 0;
+    margin-left: 0;
   }
 
   ul {

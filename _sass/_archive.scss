@@ -10,8 +10,9 @@
   }
 
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$sidebar-link-max-width + $profile-content-gap});
+    grid-column: 2;
+    float: none;
+    width: 100%;
     margin-right: 0;
     padding-left: 0;
   }
