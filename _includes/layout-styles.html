@@ -1,7 +1,7 @@
 <style id="site-layout-overrides">
 /* Keep these overrides in the generated HTML to avoid stale stylesheet delivery. */
 html { font-size: 15px; }
-@media screen and (min-width: 768px) { html { font-size: 16px; } }
+@media screen and (min-width: 768px) { html { font-size: 17px; } }
 #main,
 .masthead .masthead__inner-wrap {
   box-sizing: border-box;
@@ -38,7 +38,18 @@ html { font-size: 15px; }
   .masthead .masthead__inner-wrap {
     display: grid;
     grid-template-columns: 320px minmax(0, 1fr);
-    column-gap: 32px;
+    column-gap: 24px;
+  }
+
+  #main > .sidebar {
+    box-sizing: border-box;
+    width: 320px;
+    padding-left: 48px;
+    padding-right: 0;
+  }
+
+  #main > .sidebar .author__avatar img {
+    max-width: 195px;
   }
 
   #main::before,

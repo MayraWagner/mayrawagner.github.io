@@ -21,6 +21,7 @@
     width: $sidebar-link-max-width;
     margin-right: $profile-content-gap;
     padding-top: 2em;
+    padding-left: 48px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -89,7 +90,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 195px;
     border-radius: 50%;
 
     @include breakpoint($large) {
