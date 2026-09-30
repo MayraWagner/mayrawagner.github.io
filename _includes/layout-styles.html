@@ -1,4 +1,7 @@
-/* Load after the theme so layout updates do not depend on Sass compilation. */
+<style id="site-layout-overrides">
+/* Keep these overrides in the generated HTML to avoid stale stylesheet delivery. */
+html { font-size: 15px; }
+@media screen and (min-width: 768px) { html { font-size: 16px; } }
 #main,
 .masthead .masthead__inner-wrap {
   box-sizing: border-box;
@@ -62,3 +65,5 @@
     margin-left: 0;
   }
 }
+
+</style>
