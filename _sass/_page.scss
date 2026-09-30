@@ -18,7 +18,7 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(9 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
@@ -46,6 +46,35 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+}
+
+.page__content .home-publications {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #e5e5e5;
+
+  h2 {
+    margin: 0 0 0.75em;
+    padding: 0;
+    border: 0;
+    font-size: $type-size-5;
+    font-weight: bold;
+  }
+
+  .publication__title {
+    margin: 0 0 0.35em;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  .publication__authors {
+    margin: 0 0 0.35em;
+    font-weight: normal;
+  }
+
+  .publication__details {
+    margin: 0;
+  }
 }
 
 .page__content {
